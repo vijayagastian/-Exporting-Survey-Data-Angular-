@@ -1,0 +1,125 @@
+{
+    "api_status": true,
+    "data": [
+        {
+            "Survey_id": 15,
+            "survey_name": "survey validation",
+            "Count": 0,
+            "Survey_response": []
+        },
+        {
+            "Survey_id": 16,
+            "survey_name": "survey valid 2",
+            "Count": 0,
+            "Survey_response": []
+        },
+        {
+            "Survey_id": 17,
+            "survey_name": "testing",
+            "Count": 0,
+            "Survey_response": []
+        },
+        {
+            "Survey_id": 11,
+            "survey_name": "Sample Survey",
+            "Count": 1,
+            "Survey_response": [
+                {
+                    "reg_id": "991012400001",
+                    "responses": [
+                        {
+                            "question_id": "32",
+                            "question_name": "choose your pincode?",
+                            "choice_taken": "533407"
+                        },
+                        {
+                            "question_id": "33",
+                            "question_name": "select area",
+                            "choice_taken": "Jagannadhapuram"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Survey_id": 12,
+            "survey_name": "Sample Survey 20/05/2024",
+            "Count": 1,
+            "Survey_response": [
+                {
+                    "reg_id": "991012400001",
+                    "responses": [
+                        {
+                            "question_id": "34",
+                            "question_name": "What is your name ?",
+                            "choice_taken": "ram kumar"
+                        },
+                        {
+                            "question_id": "35",
+                            "question_name": "Choose Gender?",
+                            "choice_taken": "Male"
+                        },
+                        {
+                            "question_id": "36",
+                            "question_name": "Fav Sports",
+                            "choice_taken": "Cricket"
+                        },
+                        {
+                            "question_id": "36",
+                            "question_name": "Fav Sports",
+                            "choice_taken": "Volleyball"
+                        },
+                        {
+                            "question_id": "34",
+                            "question_name": "What is your name ?",
+                            "choice_taken": "ram kumar"
+                        },
+                        {
+                            "question_id": "35",
+                            "question_name": "Choose Gender?",
+                            "choice_taken": "Male"
+                        },
+                        {
+                            "question_id": "36",
+                            "question_name": "Fav Sports",
+                            "choice_taken": "Cricket"
+                        },
+                        {
+                            "question_id": "36",
+                            "question_name": "Fav Sports",
+                            "choice_taken": "Volleyball"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Survey_id": 13,
+            "survey_name": "SAMPLE SURVEY  CDAC",
+            "Count": 0,
+            "Survey_response": []
+        },
+        {
+            "Survey_id": 14,
+            "survey_name": "SAMPLE SURVEY  CDAC",
+            "Count": 2,
+            "Survey_response": [
+                {
+                    "reg_id": "991012400001",
+                    "responses": [
+                        {
+                            "question_id": "37",
+                            "question_name": "What isyour name?",
+                            "choice_taken": "Ramkumar"
+                        },
+                        {
+                            "question_id": "38",
+                            "question_name": "Choose Gender?",
+                            "choice_taken": "Male"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

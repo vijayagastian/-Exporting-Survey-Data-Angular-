@@ -1,0 +1,18 @@
+
+<h1 mat-dialog-title>Single Response Download</h1>
+<div mat-dialog-content>
+    <p> Survey ID: {{data.survey.Survey_id}}</p>
+  <p>Survey Name: {{ data.survey.survey_name }}</p>
+  <div>
+    Enter Register ID:
+    <input matInput [(ngModel)]="registerId" placeholder="Register ID" (keydown.enter)="fetchRegName()">
+    <button mat-raised-button color="primary" (click)="fetchRegName()">Get Reg name</button>
+  </div>
+  <div *ngIf="regName !== undefined">
+    Register Name: {{ regName }}
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="{ registerId: registerId }" [disabled]="!regName" (click)="onDownload()">Download</button>
+</div>

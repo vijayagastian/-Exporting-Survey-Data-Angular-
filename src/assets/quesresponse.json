@@ -1,0 +1,59 @@
+{
+    "api_status": true,
+    "survey_id": 8,
+    "survey_name": "bharath survey",
+    "start_date": "22-04-2024",
+    "end_date": "26-04-2024",
+    "data": [
+        {
+            "qp_id": 21,
+            "qp_type": 1,
+            "qp_text": "What is the capital of India ?",
+            "contain_choices": 1,
+            "qp_type_name": "MCQ",
+            "choices": [
+                {
+                    "choice_id": 44,
+                    "choice_text": "Delhi"
+                },
+                {
+                    "choice_id": 45,
+                    "choice_text": "New Delhi"
+                },
+                {
+                    "choice_id": 46,
+                    "choice_text": "Both Delhi and New Delhi"
+                }
+            ]
+        },
+        {
+            "qp_id": 22,
+            "qp_type": 3,
+            "qp_text": "What is your name ?",
+            "contain_choices": 0,
+            "qp_type_name": "TEXT",
+            "choices": []
+        },
+        {
+            "qp_id": 23,
+            "qp_type": 2,
+            "qp_text": "what is your fav sport ?",
+            "contain_choices": 1,
+            "qp_type_name": "CHECKBOX",
+            "choices": [
+                {
+                    "choice_id": 47,
+                    "choice_text": "Cricket"
+                },
+                {
+                    "choice_id": 48,
+                    "choice_text": "Football"
+                },
+                {
+                    "choice_id": 49,
+                    "choice_text":"volley Ball"
+                }
+                ]
+        }
+    ]
+}

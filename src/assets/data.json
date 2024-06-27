@@ -1,0 +1,33 @@
+{
+    "api_status": true,
+    "data": {
+        "student_count": 97,
+     
+        "gender": {
+            "Male": 41,
+            "Transgender": 1,
+            "Female": 55
+        },
+        "institute_name": {
+            "Govt. College Waidhan": 4,
+            "Govt. College Chitrangi": 1,
+            "Govt. College Deosar": 89,
+            "Govt. Girl College  Singrauli": 1,
+            "GOVT. HSS Kushahi": 1,
+            "GOVT. HSS Bardi": 1
+        },
+
+        "pincode": {
+            "486881": 83,
+            "486669": 8,
+            "486886": 4,
+            "486889": 1,
+            "486892": 1
+        },
+        "block": {
+            "chitrangi": 3,
+            "deosar": 88,
+            "waidhan": 6
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.custom-card .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+  }
+  .head{
+    padding: 10px;
+  }
+  
+  .subbox1 {
+  
+    color: #000;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  

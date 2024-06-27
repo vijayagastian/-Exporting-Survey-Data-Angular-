@@ -1,0 +1,33 @@
+
+.subbox1{
+    
+   
+    padding: 10px;
+    
+    border-radius: 4px;
+    background-color: #8998a6;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  .export-button {
+    margin-left: auto;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.export-button svg {
+    width: 30px;
+    height: 30px;
+}
+
+.export-button:hover {
+    background-color: #f0f0f0; /* Optional: change background color on hover */
+}
+
+.subbox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}

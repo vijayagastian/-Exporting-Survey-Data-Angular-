@@ -1,0 +1,81 @@
+{
+    "api_status": true,
+    "data": [
+        {
+            "institute_Name": "Cdac-Chennai",
+            "institute_Code": "12345",
+            "Spoc": [
+                {
+                    "spoc_id": 1,
+                    "Name": "Sri",
+                    "Emp_id":123,
+                    "e-mail": "sri@gmail.com",
+                    "dob": "09/21/65",
+                    "Ph.no": 123456,
+                    "Designation": "Engineer",
+                    "Address": "1/23,vellore,Vellore"
+                },
+                {
+                    "spoc_id": 2,
+                    "Name": "VIJI",
+                    "Emp_id":2344,
+                    "e-mail": "VIJI@gmail.com",
+                    "dob": "09/3/65",
+                    "Ph.no": 123456,
+                    "Designation": "P.Engineer",
+                    "Address": "1/23,pondy,Pondy"
+                },
+                {
+                    "spoc_id": 3,
+                    "Name": "vijay",
+                    "Emp_id":6543,
+                    "e-mail": "jhnb@gmail.com",
+                    "dob": "09/34/65",
+                    "Ph.no": 123456,
+                    "Designation": "P.Engineer",
+                    "Address": "1/23,taramani,chennai"
+                }
+            ]
+        },
+        {
+            "institute_Name": "Cdac-PUNE",
+            "institute_Code": "654321",
+            "Spoc": [
+                {
+                    "spoc_id": 1,
+                    "Name": "HARI",
+                    "Emp_id":76543,
+                    "e-mail": "hari@gmail.com",
+                    "dob": "09/21/65",
+                    "Ph.no": 123456,
+                    "Designation": "Engineer",
+                    "Address": "1/23,pune,Pune"
+                },
+                {
+                    "spoc_id": 2,
+                    "Name": "REG",
+                    "Emp_id":123456,
+                    "e-mail": "REg@gmail.com",
+                    "dob": "09/3/65",
+                    "Ph.no": 123456,
+                    "Designation": "P.Engineer",
+                    "Address": "1/23,pondy,Pondy"
+                },
+                {
+                    "spoc_id": 3,
+                    "Name": "vig",
+                    "e-mail": "vig@gmail.com",
+                    "dob": "09/34/65",
+                    "Ph.no": 123456,
+                    "Designation": "P.Engineer",
+                    "Address": "1/23,taramani,chennai"
+                }
+            ]
+        },
+        {
+            "institute_Name": "Cdac-Delhi",
+            "institute_Code": "098098",
+            "Spoc": []
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+
+.subbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.survey-name {
+    margin-left: 20px; /* Adjust the value as needed */
+}
+
+.subbox1{
+    
+   color:#000;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  .export-button {
+    margin-left: auto;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.export-button svg {
+    width: 30px;
+    height: 30px;
+}
+
+.export-button:hover {
+    background-color: #f0f0f0; /* Optional: change background color on hover */
+}

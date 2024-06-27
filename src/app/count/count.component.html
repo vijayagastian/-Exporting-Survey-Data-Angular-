@@ -1,0 +1,23 @@
+
+
+<div>
+    <select (change)="onFilterChange($event)" class="subbox1">
+      <option value="both">Both</option>
+      <option value="active">Active</option>
+      <option value="inactive">Inactive</option>
+    </select>
+  </div>
+  <div id="chart">
+    <apx-chart
+      [series]="chartOptions.series"
+      [chart]="chartOptions.chart"
+      [dataLabels]="chartOptions.dataLabels"
+      [plotOptions]="chartOptions.plotOptions"
+      [yaxis]="chartOptions.yaxis"
+      [xaxis]="chartOptions.xaxis"
+      [stroke]="chartOptions.stroke"
+      [grid]="chartOptions.grid"
+      [fill]="chartOptions.fill"
+    
+    ></apx-chart>
+  </div>

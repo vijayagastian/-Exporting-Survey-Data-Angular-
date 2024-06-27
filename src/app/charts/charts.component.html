@@ -1,0 +1,25 @@
+
+
+<div>
+    <select (change)="onFilterChange($event)" class="subbox1">
+      <option value="student_count">Student Count</option>
+      <option value="gender">Gender</option>
+      <option value="institute_name">Institution Name</option>
+      <option value="pincode">Pincode</option>
+    </select>
+  </div>
+  <div id="chart">
+    <apx-chart
+      [series]="chartOptions.series"
+      [chart]="chartOptions.chart"
+      [dataLabels]="chartOptions.dataLabels"
+      [plotOptions]="chartOptions.plotOptions"
+      [yaxis]="chartOptions.yaxis"
+      [xaxis]="chartOptions.xaxis"
+      [stroke]="chartOptions.stroke"
+      [grid]="chartOptions.grid"
+      [fill]="chartOptions.fill"
+      [annotations]="chartOptions.annotations"
+    ></apx-chart>
+  </div> 
+  

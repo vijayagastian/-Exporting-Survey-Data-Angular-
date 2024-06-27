@@ -1,0 +1,16 @@
+<mat-card class="custom-card">
+  <div class="head">
+    <label for="instituteSelect">Institute Name: </label>
+    <select class="subbox1" id="instituteSelect" [(ngModel)]="selectedInstituteName" (change)="onInstituteChange()">
+      <option *ngFor="let institute of institutes" [value]="institute.institute_Name">
+        {{ institute.institute_Name }}
+      </option>
+    </select>
+    <h4>Institute Code: <span>{{ selectedInstitute?.institute_Code }}</span></h4>
+
+    <div class="btn">
+      <button mat-raised-button color="primary" (click)="openSingleDialog()">Single</button>
+      <button mat-raised-button color="primary" (click)="downloadBulk()">Bulk</button>
+    </div>
+  </div>
+</mat-card><br>

@@ -1,0 +1,66 @@
+{
+    "api_status": true,
+    "data": [
+        {
+            "institute_Code": 1234,
+            "institute_Name": "CDAC-CHENNAI",
+            "Stu_data": [
+                {
+                    "student id": 123,
+                    "name": "SRI",
+                    "Gender": "male",
+                    "PH_no": 890781234,
+                    "Graduation": "B.TECH",
+                    "Stream": "CSE",
+                    "Address": "perungudi",
+                    "Pincode": 123456,
+                    "State": "TN"
+                },
+                {
+                    "student id": 1234,
+                    "name": "DIVYA",
+                    "Gender": "Female",
+                    "PH_no": 890781234,
+                    "Graduation": "B.TECH",
+                    "Stream": "CSE",
+                    "Address": "perungudi",
+                    "Pincode": 123456,
+                    "State": "TN"
+                }
+            ]
+        },
+        {
+            "institute_Code": 4321,
+            "institute_Name": "CDAC-PUNE",
+            "Stu_data": [
+                {
+                    "student id": 321,
+                    "name": "SRInath",
+                    "Gender": "male",
+                    "PH_no": 890781234,
+                    "Graduation": "B.TECH",
+                    "Stream": "CSE",
+                    "Address": "perungudi",
+                    "Pincode": 123456,
+                    "State": "TN"
+                },
+                {
+                    "student id": 4321,
+                    "name": "DIVYA",
+                    "Gender": "Female",
+                    "PH_no": 890781234,
+                    "Graduation": "B.TECH",
+                    "Stream": "CSE",
+                    "Address": "perungudi",
+                    "Pincode": 123456,
+                    "State": "TN"
+                }
+            ]
+        },
+        {
+            "institute_Code": 12345,
+            "institute_Name": "CDAC-Delhi",
+            "Stu_data": []
+        }
+    ]
+}

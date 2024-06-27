@@ -1,0 +1,14 @@
+<mat-card class="custom-card">
+    <div class="head">
+      <h4>Institute_Name:
+        <select class="subbox1"(change)="onInstituteSelect($event)">
+          <option class="subbox" *ngFor="let institute of institutes" [value]="institute.institute_Name">
+            {{ institute.institute_Name }}
+          </option>
+        </select>
+      </h4>
+      <h4>Institute_Code: <span>{{ selectedInstitute?.institute_Code }}</span></h4>
+      <button mat-raised-button color="primary" (click)="downloadData()" [disabled]="!selectedInstitute">Download</button>
+    </div>
+  </mat-card><br>
+  

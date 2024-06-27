@@ -1,0 +1,42 @@
+
+
+
+<button mat-raised-button color="primary" (click)="exportToPDF()">Download PDF</button>
+<div *ngIf="surveyData" #printableContent>
+ 
+  <mat-accordion #accordion>
+    <mat-card>
+      <mat-card-content>
+        <form>
+          <div *ngFor="let question of surveyData.data; let i = index">
+            <mat-expansion-panel [expanded]="question.isExpanded">
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  Question {{ i + 1 }}: {{ question.qp_text }}
+                </mat-panel-title>
+              </mat-expansion-panel-header>
+
+              <div class="subbox" *ngIf="question.qp_type_name === 'MCQ'">
+                <div class="choice" *ngFor="let choice of question.choices">
+                  <input type="radio" disabled="true" [name]="question.qp_id" [value]="choice.choice_text" class="typ">
+                  {{ choice.choice_text }}
+                </div>
+              </div>
+
+              <div class="subbox" *ngIf="question.qp_type_name === 'TEXT'">
+                <input class="choice" type="text" disabled="true" [name]="question.qp_id">
+              </div>
+
+              <div class="subbox" *ngIf="question.qp_type_name === 'CHECKBOX'">
+                <div class="choice" *ngFor="let choice of question.choices">
+                  <input type="checkbox" disabled="true" [name]="question.qp_id" [value]="choice.choice_text">
+                  {{ choice.choice_text }}
+                </div>
+              </div>
+            </mat-expansion-panel>
+          </div>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </mat-accordion> 
+</div>

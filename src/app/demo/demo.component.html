@@ -1,0 +1,19 @@
+<div>
+    <button mat-raised-button color="primary" (click)="exportToPDF()">Download PDF</button>
+    </div>
+  
+  <mat-accordion #printableContent>
+    <mat-expansion-panel *ngFor="let question of surveyData?.data" [(expanded)]="question.isExpanded">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{ question.qp_text }}
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <div *ngIf="question.contain_choices">
+        <ul>
+          <li *ngFor="let choice of question.choices">{{ choice.choice_text }}</li>
+        </ul>
+      </div>
+    </mat-expansion-panel>
+  </mat-accordion>
+  

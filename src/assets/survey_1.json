@@ -1,0 +1,24 @@
+{
+    "api_status": true,
+    "survey name": "Sample Survey",
+    "data": [
+        {
+            "question_id": 32,
+            "question": "choose your pincode?",
+            "choice_": [
+                "533407",
+                "533401",
+                "533406"
+            ]
+        },
+        {
+            "question_id": 33,
+            "question": "select area",
+            "choice_": [
+                "kotananduru",
+                "Jagannadhapuram",
+                "Tuni"
+            ]
+        }
+    ]
+}

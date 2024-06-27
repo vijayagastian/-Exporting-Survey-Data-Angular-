@@ -1,0 +1,25 @@
+{
+    "api_status": true,
+    "data": {
+        "Survey_id": "11",
+        "survey_name": "Sample Survey",
+        "Count": 1,
+        "Survey_response": [
+            {
+                "reg_id": "991012400001",
+                "responses": [
+                    {
+                        "question_id": "32",
+                        "question_name": "choose your pincode?",
+                        "choice_taken": "533407"
+                    },
+                    {
+                        "question_id": "33",
+                        "question_name": "select area",
+                        "choice_taken": "Jagannadhapuram"
+                    }
+                ]
+            }
+        ]
+    }
+}

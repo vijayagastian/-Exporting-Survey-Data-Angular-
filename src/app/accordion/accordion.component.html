@@ -1,0 +1,41 @@
+<body>
+   
+      <div class="subbox">
+        <cdk-accordion class="example-accordion">
+          <cdk-accordion-item
+            *ngFor="let item of items; let index = index; trackBy: trackByFn"
+            #accordionItem="cdkAccordionItem"
+            class="example-accordion-item"
+            role="button"
+            tabindex="0"
+            [attr.id]="'accordion-header-' + index"
+            [attr.aria-expanded]="accordionItem.expanded"
+            [attr.aria-controls]="'accordion-body-' + index">
+            
+            <div class="example-accordion-item-header" (click)="accordionItem.toggle()">
+              {{ item }}
+              <span class="example-accordion-item-description">
+                Click to {{ accordionItem.expanded ? 'close' : 'open' }}
+              </span> 
+            </div>
+            
+            <div
+              class="example-accordion-item-body"
+              role="region"
+              [style.display]="accordionItem.expanded ? '' : 'none'"
+              [attr.id]="'accordion-body-' + index"
+              [attr.aria-labelledby]="'accordion-header-' + index">
+              
+              
+              
+              <app-charts *ngIf="index === 0"></app-charts>
+              <app-count *ngIf="index ===1"></app-count>
+              <app-surtaken *ngIf="index ===2"></app-surtaken> 
+            <app-question *ngIf="index ===3"></app-question>
+            <app-surresponse *ngIf="index ===4"></app-surresponse>
+            </div>
+          </cdk-accordion-item>
+        </cdk-accordion>
+      </div>
+
+  </body> 

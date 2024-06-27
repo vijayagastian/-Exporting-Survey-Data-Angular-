@@ -1,0 +1,56 @@
+{
+    "api_status": true,
+    "data": {
+        "survey_count": 7,
+        "surveys_active": {
+            "count": 3,
+            "survey_ids": [
+                15,
+                16,
+                17
+            ]
+        },
+        "surveys_inactive":{
+            "count": 4,
+            "survey_ids": [
+                11,
+                12,
+                13,
+                14
+            ]
+        },
+        "gender_data": {
+            "Female":7,
+            "Male": 7
+        },
+        "survey_taken": {
+            "survey_id: 12": {
+                "count": 8,
+                "student_ids": [
+                    "991012400001",
+                    "991012400001",
+                    "991012400001",
+                    "991012400001",
+                    "991012400001",
+                    "991012400001",
+                    "991012400001",
+                    "991012400001"
+                ]
+            },
+            "survey_id: 14": {
+                "count": 2,
+                "student_ids": [
+                    "991012400001",
+                    "991012400001"
+                ]
+            },
+            "survey_id: 11": {
+                "count": 2,
+                "student_ids": [
+                    "991012400001",
+                    "991012400001"
+                ]
+            }
+        }
+    }
+}

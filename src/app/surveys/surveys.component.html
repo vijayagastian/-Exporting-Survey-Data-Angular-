@@ -1,0 +1,41 @@
+<label class="label">Survey id:</label>
+<select id="survey-select" class="label" class="subbox1" (change)="onSurveyChange($event)">
+  <option *ngFor="let survey of surveys" [value]="survey.Survey_id">{{ survey.Survey_id }}</option>
+</select>
+<span class="survey-name" class="label">  Survey Name: <span class="subbox1" class="label">{{ selectedSurvey?.survey_name }}</span></span>
+
+
+  <mat-card class="custom-card">
+    <mat-card-header>
+      <div class="header-container">
+        <mat-card-title>Questions</mat-card-title>
+        <div class="actions-container">
+            <button mat-raised-button color="primary" mat-button (click)="downloadQuestions()" >Download</button>
+        </div>
+      </div>
+    </mat-card-header>
+  </mat-card>
+  <br>
+
+ <mat-card class="custom-card">
+    <mat-card-header>
+      <div class="header-container">
+        <mat-card-title>Single Response</mat-card-title>
+        <div class="actions-container">
+            <button mat-raised-button color="primary" (click)="openDialog()">Click Here</button>
+        </div>
+      </div>
+    </mat-card-header>
+  </mat-card>
+  <br>
+  <mat-card class="custom-card">
+    <mat-card-header>
+      <div class="header-container">
+        <mat-card-title>Bulk Response</mat-card-title>
+        <div class="actions-container">
+          <button mat-raised-button color="primary" mat-button (click)="downloadBulkResponse()">Download</button>
+        </div>
+      </div>
+    </mat-card-header>
+  </mat-card>
+  
